@@ -26,7 +26,9 @@ The run_analysis.R script cleans up the data by:
 
 
 
-4. Labelling the dataset with the appropriate descriptive names and then merging all 3 datasets namely    Subject_data,         Y_data and X_data into a single data frame.
+4. Labelling the dataset with the appropriate descriptive names and then merging all 3 datasets namely    Subject_data,         Y_data and X_data into a single data frame using the rbind() function.
+   Thus:
+   Subject_data, Y_data and X_data are merged into one big data frame.
 
 
 5. Creating a 2nd, independent tidy data set with the average of each measurement for each activity and each    subject. 
