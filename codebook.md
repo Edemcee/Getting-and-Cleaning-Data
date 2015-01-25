@@ -15,7 +15,7 @@ The run_analysis.R script cleans up the data by:
 2. Extracting the measurements on the mean and standard deviation for each measurement from the       features.txt 
 
 
-3. Applying the appropriate descriptive activity names extracted from the activity_labels.txt dataset to the      respective activities in the activities dataset. The descriptive names are:
+3. Applying the appropriate descriptive activity names extracted from the activity_labels.txt dataset to the      respective    activities in the activities dataset. The descriptive names are:
    * walking
    * walkingupstairs
    * walkingdownstairs
@@ -25,8 +25,8 @@ The run_analysis.R script cleans up the data by:
    The labels are converted to lower case while underscores and paranthesis are removed
 
 
-4. Labelling the dataset with the appropriate descriptive names and then merging all 3 datasets namely    Subject_data, Y_data and X_data into a single data frame.
 
+4. Labelling the dataset with the appropriate descriptive names and then merging all 3 datasets namely    Subject_data,         Y_data and X_data into a single data frame.
 
 
 5. Creating a 2nd, independent tidy data set with the average of each measurement for each activity and each    subject. 
