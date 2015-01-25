@@ -15,14 +15,14 @@ The run_analysis.R script cleans up the data by:
 2. Extracting the measurements on the mean and standard deviation for each measurement from the       features.txt 
 
 
-3. Applying the appropriate descriptive activity names extracted from the activity_labels.txt dataset to the      respective    activities in the activities dataset. The descriptive names are:
+3. Applying the appropriate descriptive activity names extracted from the activity_labels.txt dataset to the      respective    activities in the activities dataset. The labels are converted to lower case while underscores and paranthesis are removed    The descriptive names are:
    * walking
    * walkingupstairs
    * walkingdownstairs
    * sitting
    * standing
    * laying
-   The labels are converted to lower case while underscores and paranthesis are removed
+
 
 
 
